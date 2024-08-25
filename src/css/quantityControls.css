@@ -1,0 +1,25 @@
+.qty-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 8rem;
+    width: 100%;
+    padding: .3rem;
+    background-color: #f486d7;
+    border-radius: 1rem;
+}
+.cart-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.qty-icon{
+    transform: scale(0.7);
+    background-color: rgba(2, 2, 4, 0.688);
+    border-radius: 50%;
+}
+.qty-num{
+    font-size: 1.6rem;
+    color: white;
+    font-weight: 500;
+}

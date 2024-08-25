@@ -1,0 +1,117 @@
+
+.cart-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 380px;
+    width: 100%;
+    height: fit-content;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    padding: 3rem 0;
+    background-color: white;
+    box-shadow: 0 1rem 2rem -1rem rgba(194, 30, 180, 0.198);
+    border-radius: 1rem;
+    z-index: 10;
+}
+/* --------- FILLED CART STYLES--------------- */
+
+.filled-cart{
+ width: 100%; 
+ display: flex;  
+ flex-direction: column;
+ 
+}
+.total{
+    margin-left: 3rem;
+    margin-bottom: 2rem;
+    width: fit-content;
+    font-weight: 600;
+    font-size: 2.8rem;
+
+}
+.cart-item{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 3rem 1.5rem 3rem;
+    border-bottom: 1px solid #fe82dd33;
+    gap: 1rem;
+
+}
+.thumbnail-details-wrapper{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.thumbnail-wrapper{
+    max-width: 6rem;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f486d7;
+    border-radius: 1.5rem;
+    border: none;
+
+}
+.thumbnail{
+    width: 100%;
+    height: auto;
+}
+.cart-icon-wrapper{
+    margin-left: auto;
+}
+.price-title-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: .6rem;
+}
+.cart-item-title{
+    font-size: clamp(1rem,11vw,1.5rem);
+    font-style: italic;
+    font-weight: 700;
+}
+.cart-item-price{
+  font-weight: 500;
+  font-size: clamp(1.2rem,10vw,1.5rem);
+}
+
+.check-out-btn-wrapper{
+    width: 100%;
+    padding: 0 3rem;
+    margin-top: 2rem;
+}
+.checkout-btn{
+    height: 4rem;
+    width: 100%;
+    background-color: #e248bc;
+    color: var(--Dark-Blue);
+    color: white;
+    font-weight: 600;
+    font-size: 1.6rem;
+    border-radius: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+
+}
+
+
+/* }EMPTY CART STYLES */
+
+.empty-cart-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.empty-img{
+    width: 50%;
+}
