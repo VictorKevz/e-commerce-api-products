@@ -1,9 +1,12 @@
 {
+  "homepage": "https://VictorKevz.github.io/e-commerce-api-products/", 
   "name": "e-commerce-api-products",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build", 
+    "deploy": "gh-pages -d dist",   
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
